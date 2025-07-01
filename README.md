@@ -1,16 +1,52 @@
-### About
+# Brazilian States/Cities Rest API
+#### Node JS: Express + Prisma/SQLite + TypeScript + Jest + Docker
 
-• [e-mail](hello@joaocarlosalves.dev)
+A REST API to get all Brazilian cities from a state, using a Prisma SQLite database and static JSON files.  
+Following **code best practices**, **DDD**, and **SOLID** principles for maintainable, scalable, and testable code.
 
+### Using  
+
+- **Node.js** with **Express**
+- **Prisma** with **SQLite**
+- **TypeScript**
+- **Jest** for unit tests and coverage
+- **Docker**  
+
+### And pre-configured Features
+
+- **Latest TypeScript** setup
+- **Middlewares**:
+  - CORS
+  - Rate Limiter
+  - Request Handler using Helmet
+- **Babel**
+- **Prettier**
+- **ESLint**
+- `robots.txt` to prevent SEO indexing and public URL exposure
+- Docker container with `Dockerfile` and `docker-compose.yml`
+- Prisma configuration file
+- Jest unit test and coverage suite
+- `.nvmrc` file for Node.js version control
+- `.env` file for environment variables
+- `.gitignore` file for sensitive/common ignored files
+
+___
+
+### About me
+
+I'm **_João Carlos Alves_**, a Senior **Front End Developer** and **UI/UX Designer** with **16 years experience**, and about 9 working with **Angular** and 2 years with **React**, including **WebComponents**, **SPA**, **PWA**, **TypeScript**, **Webpack**, **testing**, **CI/CD pipelines**, **library creation**, **micro frontend**, and many **task management tools**.
+
+
+• [e-mail](mailto:hello@joaocarlosalves.dev)  
 • [linkedin](https://www.linkedin.com/in/joaocarlosalvesdev)
-
----
 
 <br>
 
+___
+
 ### Install
 
-> Use **Node.js** version **22.14.0** (also works in v18.20.8)
+> Use **Node.js** version **22.14.0** (_also works in v18.20.8_)
 
 ```bash
 # Clone the repository
@@ -99,8 +135,6 @@ http://localhost:4000
 - **se**: Sergipe
 - **to**: Tocantins
 
----
-
 <br>
 
 ### Project Dependencies
@@ -108,7 +142,6 @@ http://localhost:4000
 | Library              | Description                                                         |
 |----------------------|---------------------------------------------------------------------|
 | `@prisma/client`     | Client for accessing the database using Prisma ORM.                 |
-| `bcryptjs`           | Password hashing and comparison with bcrypt support.                |
 | `cookie-parser`      | Parses cookies received in requests.                                |
 | `cors`               | Enables CORS (cross-origin resource sharing).                       |
 | `dotenv`             | Loads environment variables from a `.env` file.                     |
@@ -117,13 +150,9 @@ http://localhost:4000
 | `express-validator`  | Middleware for validating request data.                             |
 | `helmet`             | Sets HTTP security headers to protect the application.              |
 | `http-errors`        | Creates HTTP errors with appropriate messages and codes.            |
-| `jsonwebtoken`       | Creates and verifies JWT tokens for authentication.                 |
 | `morgan`             | HTTP request logging middleware.                                    |
-| `uuid`               | Generates universally unique identifiers (UUIDs).                   |
 | `xss-clean`          | Sanitizes inputs to prevent XSS attacks.                            |
 | `zod`                | Schema validator and parser for TypeScript.                         |
-
----
 
 <br>
 
@@ -131,17 +160,14 @@ http://localhost:4000
 
 | Library                           | Description                                                       |
 |-----------------------------------|-------------------------------------------------------------------|
-| `@types/bcryptjs`                 | Types for the bcryptjs library.                                   |
 | `@types/cookie-parser`            | Type definitions for cookie-parser.                               |
 | `@types/cors`                     | Types for the CORS middleware.                                    |
 | `@types/dotenv`                   | Type definitions for the dotenv library.                          |
 | `@types/express`                  | Type definitions for Express.                                     |
 | `@types/jest`                     | Type definitions for Jest.                                        |
-| `@types/jsonwebtoken`             | Type definitions for jsonwebtoken.                                |
 | `@types/morgan`                   | Types for the morgan library.                                     |
 | `@types/node`                     | Type definitions for Node.js global APIs.                         |
 | `@types/supertest`                | Type definitions for the supertest library.                       |
-| `@types/uuid`                     | Types for UUID generation.                                        |
 | `@typescript-eslint/eslint-plugin`| ESLint rules specific to TypeScript.                              |
 | `@typescript-eslint/parser`       | ESLint parser that understands TypeScript.                        |
 | `eslint`                          | Linting tool to keep code consistent.                             |
@@ -155,14 +181,14 @@ http://localhost:4000
 | `tsx`                             | TypeScript executor with support for ESM, JSX, and loaders.       |
 | `typescript`                      | JavaScript superset with static typing.                           |
 
----
-
 <br>
 
 ### Use License
 
-• [e-mail](hello@joaocarlosalves.dev/)
+MIT — feel free to use and adapt.  
+But, don't forget to follow me and give a Star if you liked it!
 
+• [e-mail](hello@joaocarlosalves.dev/)  
 • [linkedin](https://www.linkedin.com/in/joaocarlosalvesdev/)
 
 ---
