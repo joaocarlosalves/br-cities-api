@@ -4,6 +4,8 @@
 A REST API to get all Brazilian cities from a state, using a Prisma SQLite database and static JSON files.  
 Following **code best practices**, **DDD**, and **SOLID** principles for maintainable, scalable, and testable code.
 
+##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
+
 ### Using  
 
 - **Node.js** with **Express**
@@ -135,6 +137,8 @@ http://localhost:4000
 - **se**: Sergipe
 - **to**: Tocantins
 
+___
+
 <br>
 
 ### Project Dependencies
@@ -181,6 +185,8 @@ http://localhost:4000
 | `tsx`                             | TypeScript executor with support for ESM, JSX, and loaders.       |
 | `typescript`                      | JavaScript superset with static typing.                           |
 
+___
+
 <br>
 
 ### Use License
@@ -188,7 +194,10 @@ http://localhost:4000
 MIT — feel free to use and adapt.  
 But, don't forget to follow me and give a Star if you liked it!
 
+João Carlos Alves © 2025  
+
 • [e-mail](hello@joaocarlosalves.dev/)  
 • [linkedin](https://www.linkedin.com/in/joaocarlosalvesdev/)
 
----
+##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
+___
