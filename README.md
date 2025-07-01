@@ -1,10 +1,10 @@
 # Brazilian States/Cities Rest API
 #### Node JS: Express + Prisma/SQLite + TypeScript + Jest + Docker
 
+##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
+
 A REST API to get all Brazilian cities from a state, using a Prisma SQLite database and static JSON files.  
 Following **code best practices**, **DDD**, and **SOLID** principles for maintainable, scalable, and testable code.
-
-##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
 
 ### Using  
 
