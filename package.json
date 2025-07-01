@@ -8,7 +8,11 @@
         "test": "npx jest --forceExit",
         "coverage": "npx jest --forceExit --coverage --verbose",
         "build": "tsc",
-        "db": "npx prisma db seed && npx prisma migrate dev --name init && npx prisma generate",
+        "db": "npx prisma validate --config ./prisma.config.ts && npx prisma db seed && npx prisma migrate dev --name init && npx prisma generate",
+        "validate": "npx prisma validate --config ./prisma.config.ts", 
+        "seed": "npx prisma db seed", 
+        "migrate": "npx prisma migrate dev --name init", 
+        "generate": "npx prisma generate",
         "start": "node dist/index.js"
     },
     "prisma": {
@@ -35,7 +39,6 @@
         "zod": "^3.25.51"
     },
     "devDependencies": {
-        "@faker-js/faker": "^9.3.0",
         "@prisma/client": "^6.9.0",
         "@types/bcryptjs": "^3.0.0",
         "@types/cookie-parser": "^1.4.8",
@@ -48,7 +51,6 @@
         "@types/node": "^22.15.29",
         "@types/supertest": "^6.0.3",
         "@types/uuid": "^10.0.0",
-        "faker": "^5.5.3",
         "install": "^0.13.0",
         "jest": "^29.7.0",
         "npm": "^10.9.2",

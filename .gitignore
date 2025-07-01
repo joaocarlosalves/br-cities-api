@@ -1,4 +1,3 @@
-# .gitignore
 node_modules
 /node_modules
 /.pnp
@@ -8,23 +7,14 @@ node_modules
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
-# testing
+coverage
 /coverage
-
-# production
+build
 /build
+dist
 /dist
-
-# typescript
 *.tsbuildinfo
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
+*.log*
 .env*
 .env
+todo.txt

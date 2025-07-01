@@ -1,4 +1,4 @@
-FROM node:18 AS builder
+FROM node:22 AS builder
 WORKDIR /app
 COPY package*.json tsconfig.json ./
 COPY src ./src
@@ -7,7 +7,7 @@ RUN npm run db
 RUN npm run build
 
 # Etapa final
-FROM node:18-slim
+FROM node:22-slim
 WORKDIR /app
 COPY package*.json ./
 COPY --from=builder /app/dist ./dist
