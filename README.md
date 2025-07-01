@@ -4,7 +4,7 @@
 A REST API to get all Brazilian cities from a state, using a Prisma SQLite database and static JSON files.  
 Following **code best practices**, **DDD**, and **SOLID** principles for maintainable, scalable, and testable code.
 
-##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
+<span style="color: orangered;">**IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!</span>
 
 ### Using  
 
@@ -199,5 +199,5 @@ João Carlos Alves © 2025
 • [e-mail](hello@joaocarlosalves.dev/)  
 • [linkedin](https://www.linkedin.com/in/joaocarlosalvesdev/)
 
-##### **IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!  
+<span style="color: orangered;">**IMPORTANT**: THIS PROJECT STILL IN PROGRESS!!</span>
 ___
